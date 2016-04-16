@@ -1,0 +1,9 @@
+1
+#foreach( $image in $images )
+  2 <a href="$image.name"><img src="$image.thumbnailName"/> - $image.name</a>
+#end
+
+3
+#foreach( $dir in $directories )
+  4 <a href="$dir.name/index.html">$dir.name</a>
+#end
